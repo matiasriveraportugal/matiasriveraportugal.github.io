@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Matías Sebastián Rivera Portugal</title>
+<meta name="description" content="Página personal de Matías Sebastián Rivera Portugal, estudiante de Administración de Negocios con mención en Marketing en la Universidad Católica San Pablo (UCSP), Arequipa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--verde:#123524;--verde2:#1f4d3a;--dorado:#b99a5b;--crema:#f6f1e4;--tinta:#1d2a24;--blanco:#fffdf7}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:var(--crema);color:var(--tinta);line-height:1.7;font-size:18px}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;color:var(--verde);line-height:1.2}
+a{color:var(--verde2)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--dorado);outline-offset:3px}
+header{background:var(--verde);color:var(--crema);text-align:center;padding:96px 24px 80px;border-bottom:6px solid var(--dorado)}
+header h1{color:var(--crema);font-size:clamp(2.2rem,6vw,3.8rem);animation:entra 1s ease both}
+header p{max-width:640px;margin:18px auto 0;font-size:1.15rem;color:#e4dcc6;animation:entra 1s .25s ease both}
+@keyframes entra{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+nav{background:var(--verde2);position:sticky;top:0;z-index:5;display:flex;flex-wrap:wrap;justify-content:center;gap:4px 22px;padding:10px 12px}
+nav a{color:var(--crema);text-decoration:none;font-size:.95rem;padding:4px 2px;border-bottom:2px solid transparent}
+nav a:hover{border-color:var(--dorado)}
+main{max-width:900px;margin:0 auto;padding:0 24px}
+section{padding:56px 0;border-bottom:1px solid #d9cfb4}
+section:last-child{border-bottom:0}
+h2{font-size:1.9rem;margin-bottom:20px;padding-left:14px;border-left:5px solid var(--dorado)}
+h3{font-size:1.2rem;margin:18px 0 6px}
+p+p{margin-top:12px}
+ul.lista{list-style:none;display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+ul.lista li{background:var(--blanco);border:1px solid var(--dorado);border-radius:999px;padding:4px 16px;font-size:.98rem}
+.btn{display:inline-block;background:var(--verde);color:var(--crema);text-decoration:none;padding:11px 24px;border-radius:6px;font-weight:600;margin:8px 10px 0 0;border:2px solid var(--verde);transition:background .2s,color .2s}
+.btn:hover{background:var(--dorado);border-color:var(--dorado);color:var(--verde)}
+.btn.claro{background:transparent;color:var(--verde)}
+.btn.claro:hover{background:var(--verde);color:var(--crema);border-color:var(--verde)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:14px}
+.tarjeta{background:var(--blanco);border-left:4px solid var(--verde2);padding:16px 20px;border-radius:4px}
+footer{background:var(--verde);color:var(--crema);text-align:center;padding:28px 16px;font-size:.95rem}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Matías Sebastián Rivera Portugal</h1>
+  <p>Estudiante de Administración de Negocios con mención en Marketing en la Universidad Católica San Pablo, Arequipa, Perú.</p>
+</header>
+
+<nav>
+  <a href="#perfil">Perfil</a>
+  <a href="#educacion">Educación</a>
+  <a href="#experiencia">Experiencia y logros</a>
+  <a href="#habilidades">Habilidades</a>
+  <a href="#metas">Metas</a>
+  <a href="#cursos">Cursos</a>
+  <a href="#companeros">Compañeros</a>
+  <a href="#redes">Redes</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<main>
+<section id="perfil">
+  <h2>Perfil profesional</h2>
+  <p>Soy estudiante de Administración de Negocios con mención en Marketing en la Universidad Católica San Pablo (UCSP). Mi formación combina la gestión empresarial con el análisis del mercado y del comportamiento del consumidor, y mi objetivo es consolidar una base sólida para liderar mi propia empresa.</p>
+  <p>Me caracterizo por la disciplina, la constancia y el trabajo en equipo, cualidades que fortalezco tanto en mi vida académica como en el deporte.</p>
+  <a class="btn" href="#contacto">Contáctame</a>
+</section>
+
+<section id="educacion">
+  <h2>Educación</h2>
+  <h3>Universidad Católica San Pablo (UCSP) · 2024 – actualidad</h3>
+  <p>Cursando la carrera de Administración de Negocios con mención en Marketing.</p>
+  <a class="btn" href="https://ucsp.edu.pe" target="_blank" rel="noopener">Universidad Católica San Pablo</a>
+  <a class="btn claro" href="https://ucsp.edu.pe/carreras/administracion-negocios/?tab=institucional" target="_blank" rel="noopener">Mi carrera</a>
+  <h3>Colegio Salesiano Don Bosco · 2011 – 2023</h3>
+  <p>Realicé toda mi formación escolar en esta institución de Arequipa, donde adquirí una base académica y de valores que sustenta mi desarrollo actual.</p>
+  <a class="btn claro" href="https://www.facebook.com/Salesianosaqp/?locale=es_LA" target="_blank" rel="noopener">Colegio Salesiano</a>
+  <h3>Idiomas</h3>
+  <ul class="lista"><li>Español: nativo</li><li>Inglés: nivel básico</li></ul>
+</section>
+
+<section id="experiencia">
+  <h2>Experiencia y logros</h2>
+  <p>Soy deportista destacado en fútbol. La práctica constante de este deporte ha reforzado mi disciplina, mi capacidad de trabajo en equipo, mi liderazgo y mi manejo de la presión en situaciones de competencia.</p>
+  <h3>Intereses</h3>
+  <ul class="lista"><li>Deporte y fútbol</li><li>Emprendimiento</li><li>Marketing y negocios</li></ul>
+</section>
+
+<section id="habilidades">
+  <h2>Habilidades</h2>
+  <div class="grid">
+    <div class="tarjeta"><h3>Habilidades blandas</h3><p>Liderazgo, comunicación, trabajo en equipo, responsabilidad, organización, adaptabilidad y resiliencia.</p></div>
+    <div class="tarjeta"><h3>Habilidades técnicas</h3><p>Ecosistema Microsoft (Word, Excel y PowerPoint), herramientas de Google y Canva.</p></div>
+  </div>
+</section>
+
+<section id="metas">
+  <h2>Metas a futuro</h2>
+  <p>Mi meta profesional es ser gerente de mi propia empresa. Para lograrlo, busco complementar mi formación en administración y marketing con experiencia práctica en gestión, liderazgo y desarrollo de negocios.</p>
+</section>
+
+<section id="cursos">
+  <h2>Cursos de la carrera y docentes</h2>
+  <p>Estos son los cursos que llevo en el semestre actual y los docentes a cargo.</p>
+  <a class="btn" href="cursos.html" target="_blank" rel="noopener">Ver cursos y docentes</a>
+</section>
+
+<section id="companeros">
+  <h2>Páginas de mis compañeros</h2>
+  <ul class="lista">
+    <li><a href="https://nataliaortizdiezcanseco.github.io" target="_blank" rel="noopener">Natalia Ortiz</a></li>
+    <li><a href="https://mattiasgaldosibarcena.github.io" target="_blank" rel="noopener">Mattias Galdos</a></li>
+    <li><a href="https://luciananicolecardenaslopez.github.io" target="_blank" rel="noopener">Luciana Cárdenas</a></li>
+    <li><a href="https://rafaelchirinosaspauza.github.io/sitio-web-sobre-mi-/" target="_blank" rel="noopener">Rafael Chirinos</a></li>
+  </ul>
+</section>
+
+<section id="redes">
+  <h2>Redes sociales</h2>
+  <a class="btn" href="https://www.instagram.com/_matias.rivera_?cplk=MTBhc3Y3aW9wdHV5cQ==" target="_blank" rel="noopener">Instagram</a>
+  <a class="btn" href="https://www.facebook.com/share/19pxnnuB1R/?mibextid=wwXIfr" target="_blank" rel="noopener">Facebook</a>
+  <a class="btn" href="https://www.linkedin.com/in/matias-sebastian-rivera-portugal-410b6044b" target="_blank" rel="noopener">LinkedIn</a>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Si deseas comunicarte conmigo, puedes escribirme a cualquiera de mis correos.</p>
+  <a class="btn" href="mailto:riveraportu@gmail.com">Correo personal</a>
+  <a class="btn claro" href="mailto:matias.rivera@ucsp.edu.pe">Correo institucional</a>
+</section>
+</main>
+
+<footer>© 2026 Matías Sebastián Rivera Portugal · Arequipa, Perú</footer>
+</body>
+</html>
