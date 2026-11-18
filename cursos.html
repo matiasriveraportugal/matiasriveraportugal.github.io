@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cursos y docentes | Matías Sebastián Rivera Portugal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--verde:#123524;--verde2:#1f4d3a;--dorado:#b99a5b;--crema:#f6f1e4;--tinta:#1d2a24;--blanco:#fffdf7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Source Sans 3',Arial,sans-serif;background:var(--crema);color:var(--tinta);line-height:1.7;font-size:18px}
+h1,h2{font-family:'Fraunces',Georgia,serif;color:var(--verde);line-height:1.2}
+a{color:var(--verde2)}
+a:focus-visible{outline:3px solid var(--dorado);outline-offset:3px}
+header{background:var(--verde);text-align:center;padding:64px 24px;border-bottom:6px solid var(--dorado)}
+header h1{color:var(--crema);font-size:clamp(1.9rem,5vw,3rem)}
+header p{color:#e4dcc6;margin-top:10px}
+main{max-width:900px;margin:0 auto;padding:48px 24px}
+.lista{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:24px}
+.curso{background:var(--blanco);border-left:4px solid var(--verde2);padding:16px 20px;border-radius:4px}
+.curso h2{font-size:1.15rem;margin-bottom:4px}
+.btn{display:inline-block;background:var(--verde);color:var(--crema);text-decoration:none;padding:11px 24px;border-radius:6px;font-weight:600;border:2px solid var(--verde);transition:background .2s,color .2s}
+.btn:hover{background:var(--dorado);border-color:var(--dorado);color:var(--verde)}
+footer{background:var(--verde);color:var(--crema);text-align:center;padding:28px 16px;font-size:.95rem}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Cursos de la carrera y docentes</h1>
+  <p>Administración de Negocios · Mención en Marketing · UCSP</p>
+</header>
+<main>
+  <a class="btn" href="index.html">Volver a mi página</a>
+  <div class="lista">
+    <div class="curso"><h2>Cálculo en Varias Variables</h2><p>Rosa Elena Arpita Deza</p></div>
+    <div class="curso"><h2>Comportamiento Organizacional</h2><p><a href="https://www.linkedin.com/in/fabiola-trelles-thorne-01861a99" target="_blank" rel="noopener">Fabiola Trelles Thorne</a></p></div>
+    <div class="curso"><h2>Desarrollo de Habilidades de Negociación</h2><p><a href="https://www.linkedin.com/in/thanud-febres-b5a4aab3" target="_blank" rel="noopener">Thanud Febres Herrera</a></p></div>
+    <div class="curso"><h2>Introducción a la Computación</h2><p><a href="https://www.linkedin.com/in/ecuadrosv" target="_blank" rel="noopener">Ernesto Cuadros Vargas</a></p></div>
+    <div class="curso"><h2>Moral</h2><p><a href="https://www.linkedin.com/in/andrés-jorge-álvarez-grupp-a6b158152" target="_blank" rel="noopener">Andrés Jorge Álvarez Grupp</a></p></div>
+  </div>
+</main>
+<footer>© 2026 Matías Sebastián Rivera Portugal · Arequipa, Perú</footer>
+</body>
+</html>
